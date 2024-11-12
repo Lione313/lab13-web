@@ -1,0 +1,20 @@
+/* Asegúrate de que el html y body ocupen toda la altura de la página */
+html, body {
+  height: 100%;
+  margin: 0;  /* Elimina los márgenes predeterminados */
+  display: flex;
+  flex-direction: column; /* Aplica flexbox y organiza los elementos en columna */
+}
+
+/* La clase container debe tomar el espacio restante */
+.container {
+  flex: 1; /* Esta propiedad permite que el contenido principal ocupe el espacio restante */
+}
+
+/* Estilos del footer */
+footer {
+  background-color: #343a40;  /* Color de fondo oscuro */
+  color: white;  /* Texto blanco */
+  padding: 10px 0;  /* Espaciado en la parte superior e inferior */
+  text-align: center;  /* Centra el texto */
+}

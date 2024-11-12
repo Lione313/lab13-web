@@ -1,0 +1,56 @@
+/* Header.css */
+.header {
+    background-color: #242629; /* Color de fondo personalizado */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: white; /* Asegura que los enlaces sean de color blanco */
+    font-size: 1rem;
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f8f9fc; /* Color de texto al hacer hover */
+    text-decoration: none; /* Asegura que no haya subrayado al hacer hover */
+}
+
+/* Asegúrate de que el menú sea responsive */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+}

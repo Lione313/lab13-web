@@ -1,0 +1,23 @@
+/* General layout to push footer to the bottom */
+body, html {
+    height: 100%; /* Full height */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* This will ensure the container fills all available space */
+}
+
+footer {
+    margin-top: auto; /* Pushes footer to the bottom of the page */
+    background-color: #343a40; /* Dark background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
